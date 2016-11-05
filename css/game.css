@@ -1,19 +1,26 @@
-.background    { background: rgb(52, 166, 251);
+<div style='width:32px;
+			height:32px;
+			background-image: url(spritesheet.png);                                                                                                                                                                                                                                                                                                                                                    
+.background    { background-image: url(sky.jpg);
                  table-layout: fixed;
                  border-spacing: 0;   }
 .background td { padding: 0;          }
-.lava          { background: rgb(255, 100, 100); }
-.wall          { background: white;   }
-.spike         { background: brown; }
+
+.lava          { background-image: url(lava.png); }
+.wall          { background-image: url(stone.png); }
+.spike         { background-image: url(spikes.png); }
 
 .actor  { position: absolute;  }
-.player { background: rgb(64, 64, 64); }
-.coin { background: rgb(241, 229, 89); }
-.killer { background: rgb(76, 200, 56); }
+.player { background-image: url(barbarian.png); }
+.coin { background-image: url(coin.png); }
+.killer { background-image: url(imp.png);
+		background-position: -32px 0px; }
 
 .game {
   overflow: hidden;
-  max-width: 600px;
-  max-height: 450px;
+  max-width: 800px;
+  max-height: 650px;
   position: relative;
-}
+}>
+</div>
+
